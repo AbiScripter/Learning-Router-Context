@@ -1,9 +1,9 @@
-[data-theme="false"] {
-  background-color: white;
-  color: black;
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
 }
 
-[data-theme="true"] {
+.app-wrapper-dark {
   background-color: black;
   color: white;
   a {
@@ -11,10 +11,9 @@
   }
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  padding: 0;
-  /* font-size: 0.9rem; */
+.app-wrapper-light {
+  background-color: white;
+  color: black;
 }
 
 .navlink {
@@ -45,6 +44,7 @@ body {
   list-style-type: none;
   border: 2px solid red;
   gap: 1rem;
+  padding: 0.35rem;
 }
 
 .footer {
@@ -52,4 +52,13 @@ body {
 }
 
 .theme-switch {
+  button {
+    outline: none;
+    background-color: orange;
+    border: none;
+    padding: 0.35rem 2rem;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 }

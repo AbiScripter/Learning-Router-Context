@@ -8,11 +8,11 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import ThemeContextProvider from "./ThemeContext";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import User from "./pages/User";
+import { ThemeContextProvider } from "./Context/ThemeContext";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
